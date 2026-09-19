@@ -1,8 +1,16 @@
+import java.util.*;
 class hello{
-    public static void main (string args[])
-    {
-        system.out.print("Hello world");
-        
-    }
-}
+      public static void main(String[] args){
+            Scanner scan = new Scanner(System.in);
+            int a=scan.nextInt();
+            int b=scan.nextInt();
+      
+           for(int i=a;i<=b;i=i+1){
+            if(i%2==0){
 
+            
+            System.out.println(i);
+            }
+           }
+      }
+}
